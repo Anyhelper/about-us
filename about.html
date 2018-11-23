@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Any Helper</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.css" rel="stylesheet">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link href="font/webfontkit-20181122-221930/stylesheet.css" rel="stylesheet">
+    <script>
+		$(document).ready(function() {
+			$(".button_3").click(function() {
+				var $this = $(this);
+				$this.find(".team-link").toggleClass("expand abate");
+				$this.find("div.bio-detail").slideToggle();
+			});
+
+		});
+	</script>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container-fluid">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        	<img src="img/logo.png" class="logoImg" alt="Logo">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <h1 class="about-heading">
+          	<span class="about-heading-span">Little bit About us</span><br>
+          	AnyHelper was founded by Kelvin Chen in 2016 in Shanghai JiaoTong University campus. Currently AnyHelper team has over 20 team members and operates both B2C and B2B business.. 
+          </h1>
+        </div>
+      </div>
+    </header>
+	<section class="following-images video-main section-no-pad">
+		<div class="container-fluid">
+			<div class="row"> 
+				<div class="col-sm-6 offset-3 no-padding  video-center">
+						<video autoplay loop muted class="" playsinline="" webkit-playsinline="" style="width:100%">
+           		 		<source src="img/world-bike-relief.mp4" type="video/mp4">
+           				Your browser does not support the video tag.
+        				</video>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- Services -->
+    <section>
+    	<div class="container">
+    		<div class="col-sm-9">
+				<h2 class="about-heading2">Our Story</h2>
+				<h4>Most of the team members have cross-cultural background and graduated from top universities in the world.</h4>
+				<p class="about-text">AnyHelper is the founding company of international service alliance and cooperates with hundreds of international companies, chambers of commerce and universities.</p>
+				<ol>
+					<li>Headhunting with City Shop, ZTE</li>
+					<li>Media Management for ECNU</li>
+					<li>Online promotion for Western Union</li>
+					<li>Online promotion for Ctrip</li>
+					<li>Data Report of Alipay</li>
+					<li>Event Promotion of Indonesia Tourism</li>
+				</ol>
+			</div>
+
+    	</div>
+    </section>
+    <section class="following-images section-no-pad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6 no-padding">
+            			<video autoplay loop muted class="" playsinline="" webkit-playsinline="">
+           		 		<source src="img/team-culture.mp4" type="video/mp4">
+           				Your browser does not support the video tag.
+        				</video>
+				</div>
+				<div class="col-sm-6 no-padding">
+						<video autoplay loop muted class="" playsinline="" webkit-playsinline="">
+           		 		<source src="img/team-work.mp4" type="video/mp4">
+           				Your browser does not support the video tag.
+        				</video>
+				</div>
+			</div>
+		</div>
+	</section>
+    <section id="team">
+    	<div class="container">
+    		<div class="col-sm-12">
+				<h2 class="about-heading2">Our Team</h2>
+				<h4 class="margintop50">Management Team.</h4>
+				<div class="row margintop50">
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row margintop50">
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+    	</div>
+    	<div class="container">
+    		<div class="col-sm-12">
+				<h4 class="margintop50">Board of Directors</h4>
+				<div class="row margintop50">
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row margintop50">
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-3">
+						<img src="img/team.jpg">
+						<p class="team-name">Drew Houston</p>
+						<p class="team-designation">Co-founder and CEO</p>
+						<div id="hidecomments">
+							<div class="button_3"><a class="team-link">Show bio</a>
+								<br />
+								<div class="bio-detail">
+									 Yamini oversees our customer-focused business functions at Dropbox, including sales, marketing, customer experience, partnerships, and business strategy and operations. She was previously VP of sales strategy and operations at Workday. 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+    	</div>
+     </section>
+     <div class="container-fluid hiring-box">
+     	<div class="container">
+     		<div class="row">
+				<div class="col-sm-9">
+				<h3 class="hiring-heading">The world needs your creative energy. Let’s keep it flowing.</h3>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" class="hiring-link d-inline-block"><button class="hiring-btn">We're Hiring</button></a>
+				</div>
+			</div>
+     	</div>
+     </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+			 <h5 class="ft-list-hd">Dropbox</h5>
+			 <ul class="footer-list">
+				<li><a href="#">Desktop app</a></li>
+			 	<li><a href="#">Mobile apps</a></li>
+			 	<li><a href="#">Plans</a></li>
+			 	<li><a href="#">Security</a></li>
+			 	<li><a href="#">Features</a></li>
+			 </ul>
+          </div>
+          <div class="col-sm-3">
+			 <h5 class="ft-list-hd">Dropbox</h5>
+			 <ul class="footer-list">
+				<li><a href="#">Desktop app</a></li>
+			 	<li><a href="#">Mobile apps</a></li>
+			 	<li><a href="#">Plans</a></li>
+			 	<li><a href="#">Security</a></li>
+			 	<li><a href="#">Features</a></li>
+			 </ul>
+          </div>
+          <div class="col-sm-3">
+			 <h5 class="ft-list-hd">Dropbox</h5>
+			 <ul class="footer-list">
+				<li><a href="#">Desktop app</a></li>
+			 	<li><a href="#">Mobile apps</a></li>
+			 	<li><a href="#">Plans</a></li>
+			 	<li><a href="#">Security</a></li>
+			 	<li><a href="#">Features</a></li>
+			 </ul>
+          </div>
+          <div class="col-sm-3">
+			 <h5 class="ft-list-hd">Dropbox</h5>
+			 <ul class="footer-list">
+				<li><a href="#">Desktop app</a></li>
+			 	<li><a href="#">Mobile apps</a></li>
+			 	<li><a href="#">Plans</a></li>
+			 	<li><a href="#">Security</a></li>
+			 	<li><a href="#">Features</a></li>
+			 </ul>
+          </div>
+          <div class="clearfix"></div>
+          <div class="col-sm-12 no-padding"><hr align="left" class="footer-hr"></div>
+          <div class="clearfix"></div>
+     	  <span>English (United States) </span>
+        </div>
+        
+      </div>
+      
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Explore</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Finish</li>
+                    <li>Category: Identity</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Lines</li>
+                    <li>Category: Branding</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Southwest</li>
+                    <li>Category: Website Design</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Window</li>
+                    <li>Category: Photography</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+
+</html>
